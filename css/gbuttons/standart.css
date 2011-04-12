@@ -8,10 +8,9 @@
  *
  * DESCRIPTION
  *
- * This is the STANDART edition of gButtons CSS3 framework.
+ * This is the STANDART package of gButtons CSS3 framework.
  * It includes: buttons core, sizes, icons, simple groups,
  * actions highlighting.
- *
  */
 
 @CHARSET "UTF-8";
@@ -71,7 +70,7 @@
 /* Set margin before next group in the row */
 .button.g-next { margin-left: 15px; }
 
-/* ---+---+---+--- MAIN ---+---+---+--- */
+/* ---+---+---+--- DEFAULT SKIN ---+---+---+--- */
 
 .button {
 	color: #333;

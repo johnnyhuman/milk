@@ -8,10 +8,9 @@
  *
  * DESCRIPTION
  *
- * This is the MINIMAL edition of gButtons CSS3 framework.
+ * This is the MINIMAL package of gButtons CSS3 framework.
  * It includes: buttons core, sizes, simple groups, actions highlighting.
- * There is no icons support!
- *
+ * There is no icons support in minimal package!
  */
 
 @CHARSET "UTF-8";
@@ -71,7 +70,7 @@
 /* Set margin before next group in the row */
 .button.g-next { margin-left: 15px; }
 
-/* ---+---+---+--- MAIN ---+---+---+--- */
+/* ---+---+---+--- DEFAULT SKIN ---+---+---+--- */
 
 .button {
 	color: #333;
