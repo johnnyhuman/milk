@@ -20,7 +20,10 @@ Framework demo: [gButtons CSS3 Framework](http://lab.aam.me/gbuttons#demo)
 
 ## Buttons ##
 
-The "buttons" can be created by adding `class="button"` to any appropriate `<a>`, `<button>`, or `<input>` element. Add a further class of `pill` to create a pill-like button. Add a further class of `primary` to emphasise more important actions.
+The "buttons" can be created by adding `class="button"` to any appropriate 
+`<a>`, `<button>`, or `<input>` element. Add a further class of `pill` to 
+create a pill-like button. Add a further class of `primary` to emphasise 
+more important actions.
 
     <a href="#" class="button">Post comment (link)</a>
     <input class="button" type="submit" value="Post comment (input)">
@@ -33,13 +36,15 @@ Pill-like buttons with a primary action:
 
 ## Buttons with icons ##
 
-A range of icons can be added (only for links and buttons) by adding a class of `icon` and any one of the provided icon classes.
+A range of icons can be added (only for links and buttons) by adding a class 
+of `icon` and any one of the provided icon classes.
 
     <a href="#" class="button icon search">Search</a>
 
 ## Buttons size ##
 
-If you need a bigger or smaller buttons you can get them easily by addind the class `medium`, `big` or `huge`.
+If you need a bigger or smaller buttons you can get them easily by addind the 
+class `medium`, `big` or `huge`.
 
     <a href="#" class="button medium">Publish</a>
     <a href="#" class="button big">Create Project</a>
@@ -47,17 +52,21 @@ If you need a bigger or smaller buttons you can get them easily by addind the cl
 
 ## Buttons with dangerous and safe actions ##
 
-If you have a button that triggers a dangerous action, like deleting data, this can be indicated by adding the class `danger`.
+If you have a button that triggers a dangerous action, like deleting data, 
+this can be indicated by adding the class `danger`.
 
     <a href="#" class="button danger">Delete post</a>
 
-If you have a button that triggers a save action, this can be indicated by adding the `safe` class.
+If you have a button that triggers a save action, this can be indicated by 
+adding the `safe` class.
 
     <a href="#" class="button safe">Save the world</a>
 
 ## Button groups ##
 
-Groups of buttons can be created by wrapping them in an element given a class of `button-group`. A less important group of buttons can be marked out by adding a further class, `minor-group`.
+Groups of buttons can be created by wrapping them in an element given a class 
+of `button-group`. A less important group of buttons can be marked out by adding 
+a further class, `minor-group`.
 
     <div class="button-group minor-group">
         <a href="#" class="button">Inbox</a>
@@ -69,7 +78,8 @@ Groups of buttons can be created by wrapping them in an element given a class of
 
 ## Mixed groups ##
 
-Displaying a mixture of grouped and standalone buttons, as might be seen in a toolbar, can be done by adding another wrapping element with the class `button-container`.
+Displaying a mixture of grouped and standalone buttons, as might be seen in a 
+toolbar, can be done by adding another wrapping element with the class `button-container`.
 
     <div class="actions button-container">
         <a href="#" class="button primary">Admin</a>
@@ -90,17 +100,26 @@ Displaying a mixture of grouped and standalone buttons, as might be seen in a to
 
 Firefox 3.5+, Google Chrome, Safari 4+, IE 8+, Opera 10+.
 
-Note: Some CSS3 features are not supported in older versions of Opera and versions of Internet Explorer prior to IE 8. The use of icons is not supported in IE 6 or IE 7.
+Note: Some CSS3 features are not supported in older versions of Opera and 
+versions of Internet Explorer prior to IE 8.
+The use of icons is not supported in IE 6 or IE 7.
 
 ## License ##
 
-<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/"><img src="http://i.creativecommons.org/p/mark/1.0/88x31.png" style="border-style: none;" alt="Public Domain" /></a>
+<a rel="license" href="http://creativecommons.org/publicdomain/mark/1.0/">
+<img src="http://i.creativecommons.org/p/mark/1.0/88x31.png" 
+style="border-style: none;" alt="Public Domain" /></a>
 
 Public domain: [http://unlicense.org](http://unlicense.org)
 
 ## Acknowledgements ##
 
 Inspiration path:
-[GitHub](http://github.com) → [David Walsh](http://davidwalsh.name)'s [GitHub-Style Buttons with CSS and JavaScript](http://davidwalsh.name/github-css) → [Michael Henriksen](http://michaelhenriksen.dk)'s [CSS3 Buttons](http://github.com/michenriksen/css3buttons) &rarr; [Nicolas Gallagher](nicolasgallagher.com)'s [CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons) &rarr; You are here.
+[GitHub](http://github.com) → [David Walsh](http://davidwalsh.name)'s [GitHub-Style Buttons with CSS and JavaScript](http://davidwalsh.name/github-css) → 
+[Michael Henriksen](http://michaelhenriksen.dk)'s [CSS3 Buttons](http://github.com/michenriksen/css3buttons) → 
+[Nicolas Gallagher](nicolasgallagher.com)'s [CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons) → 
+You are here.
 
-Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/) by [some random dude](http://somerandomdude.com/) which are licensed as [CC Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/us/).
+Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/) by 
+[some random dude](http://somerandomdude.com/) which are licensed as 
+[CC Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/us/).
