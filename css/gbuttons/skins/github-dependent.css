@@ -9,9 +9,8 @@
  * DESCRIPTION
  *
  * GitHub skin.
- * This is not standalone skin! It depends on "Default" skin.
- * Include only with (and after) a "Default" skin.
- *
+ * This is not standalone skin! It depends on the "Default" skin.
+ * Include only with (and after) the "Default" skin.
  */
 
 @CHARSET "UTF-8";
