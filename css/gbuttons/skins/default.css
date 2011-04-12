@@ -10,7 +10,6 @@
  *
  * Default skin.
  * Features: button sizes, icons, actions highlighting.
- *
  */
 
 @CHARSET "UTF-8";
@@ -84,12 +83,12 @@
 
 /* Pill */
 .button.pill {
-    -webkit-border-radius: 50em; 
-    -moz-border-radius: 50em; 
-    border-radius: 50em; 
+	border-radius: 50em;
+	-moz-border-radius: 50em;
+    -webkit-border-radius: 50em;
 }
 
-/* ---+---+---+--- ACTION HIGHLIGHTS ---+---+---+--- */
+/* ---+---+---+--- ACTIONS HIGHLIGHTING ---+---+---+--- */
 
 /* Primary action */
 .button.primary { font-weight: bold; }
