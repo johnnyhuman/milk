@@ -1,4 +1,4 @@
-# [gButtons](http://lab.aam.me/gbuttons) - CSS3 buttons framework #
+# gButtons - CSS3 buttons framework #
 
 gButtons is a lightweight but powerful CSS3 *framework* for creating good-looking buttons.
 It supports skins and plugins (o_0) which allows you to manage buttons design and behaviour easily.  
