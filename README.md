@@ -66,14 +66,15 @@ adding the `safe` class.
 
 Groups of buttons can be created by adding a classes 
 `g-first`, `g-item`, `g-last` and `next-g` or `previous-g` to the group 
-elements.
+elements. Use `next-g` or `previous-g` classes to add margin between the
+button groups in one row.
 
     <a href="#" class="button g-first">+</a>
     <a href="#" class="button g-last next-g">-</a>
 
-    <a href="#" class="button">Add comment</a>
-    <a href="#" class="button">Spam</a>
-    <a href="#" class="button">Trash</a>
+    <a href="#" class="button icon pin g-first">Publish</a>
+    <a href="#" class="button icon edit g-item">Edit</a>
+    <a href="#" class="button icon remove g-last">Delete</a>
 
 ## Button groups ##
 
