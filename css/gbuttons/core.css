@@ -1,3 +1,18 @@
+/**
+ * gButtons CSS3 Framework
+ *
+ * LICENSE
+ *
+ * This source file is in public domain.
+ * For more information see the LICENSE.txt file in this package.
+ *
+ * DESCRIPTION
+ *
+ * This is the core of the gButtons CSS3 framework.
+ * It provides such functionality as: buttons core, simple groups.
+ *
+ */
+
 @CHARSET "UTF-8";
 
 /* ---+---+---+--- MAIN ---+---+---+--- */
@@ -16,9 +31,6 @@
 
 /* Overrides extra padding on button elements in Firefox */
 .button::-moz-focus-inner { border: none; }
-
-/* Primary action */
-.button.primary { font-weight: bold; }
 
 /* ---+---+---+--- BUTTON GROUPS ---+---+---+--- */
 
