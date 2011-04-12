@@ -1,4 +1,4 @@
-# gButtons - Good-looking CSS3 buttons #
+# gButtons - CSS3 buttons framework #
 
 gButtons is a lightweight but powerful CSS3 *framework* for creating good-looking buttons.
 It supports skins and plugins (o_0) which allows you to manage buttons design and behaviour easily.  
@@ -9,11 +9,11 @@ See the evolution of the project in the "Acknowledgements" section.
 
 ## Demo ##
 
-[gButtons Demo](http://lab.aam.me/gbuttons)
+Framework demo: [gButtons CSS3 Framework](http://lab.aam.me/gbuttons#demo)
 
 ## Installation ##
 
- 1. Copy `css/gbuttons` into your stylesheets folder and link to `gbuttons/default.css` in the head of your HTML document.
+ 1. Copy `css/gbuttons` into your stylesheets folder and link to `gbuttons/standart.css` in the head of your HTML document.
  2. Copy `images/gbuttons` into your images folder.
  3. Add `button` class to the `<button>`, `<input>` or `<a>` HTML element.
 
