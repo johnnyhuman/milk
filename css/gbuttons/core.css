@@ -8,14 +8,13 @@
  *
  * DESCRIPTION
  *
- * This is the core of the gButtons CSS3 framework.
- * It provides such functionality as: buttons core, simple groups.
- *
+ * The core of the gButtons CSS3 framework.
+ * Buttons core. Simple button groups.
  */
 
 @CHARSET "UTF-8";
 
-/* ---+---+---+--- MAIN ---+---+---+--- */
+/* ---+---+---+--- MAIN CLASS ---+---+---+--- */
 
 .button {
 	white-space: nowrap;
@@ -32,7 +31,7 @@
 /* Overrides extra padding on button elements in Firefox */
 .button::-moz-focus-inner { border: none; }
 
-/* ---+---+---+--- BUTTON GROUPS ---+---+---+--- */
+/* ---+---+---+--- SIMPLE BUTTON GROUPS ---+---+---+--- */
 
 .button.g-first {
 	margin-right: 0;
@@ -45,7 +44,7 @@
 	-webkit-border-bottom-right-radius: 0;
 }
 
-.button.g-middle {
+.button.g-item {
 	margin-left: 0;
 	margin-right: 0;
 	border-right: none;
@@ -65,4 +64,5 @@
 }
 
 /* Set margin before next group in the row */
-.button.g-next { margin-left: 15px; }
+.button.next-g { margin-right: 15px; }
+.button.previous-g { margin-left: 15px; }
