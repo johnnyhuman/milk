@@ -20,7 +20,7 @@ Framework demo: [gButtons CSS3 Framework](http://lab.aam.me/gbuttons#demo)
 
 ## Buttons ##
 
-The "buttons" can be created by adding `class="button"` to any appropriate `<a>`, `<button>`, or `<input>` element. Add a further class of `pill` to create a button pill-like button. Add a further class of `primary` to emphasise more important actions.
+The "buttons" can be created by adding `class="button"` to any appropriate `<a>`, `<button>`, or `<input>` element. Add a further class of `pill` to create a pill-like button. Add a further class of `primary` to emphasise more important actions.
 
     <a href="#" class="button">Post comment (link)</a>
     <input class="button" type="submit" value="Post comment (input)">
