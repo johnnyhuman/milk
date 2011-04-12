@@ -9,13 +9,13 @@
  * DESCRIPTION
  *
  * This is the MINIMAL package of gButtons CSS3 framework.
- * It includes: buttons core, sizes, simple groups, actions highlighting.
+ * Includes: buttons core, simple groups, sizes, actions highlighting.
  * There is no icons support in minimal package!
  */
 
 @CHARSET "UTF-8";
 
-/* ---+---+---+--- MAIN ---+---+---+--- */
+/* ---+---+---+--- MAIN CLASS ---+---+---+--- */
 
 .button {
 	white-space: nowrap;
@@ -32,10 +32,7 @@
 /* Overrides extra padding on button elements in Firefox */
 .button::-moz-focus-inner { border: none; }
 
-/* Primary action */
-.button.primary { font-weight: bold; }
-
-/* ---+---+---+--- BUTTON GROUPS ---+---+---+--- */
+/* ---+---+---+--- SIMPLE BUTTON GROUPS ---+---+---+--- */
 
 .button.g-first {
 	margin-right: 0;
@@ -48,7 +45,7 @@
 	-webkit-border-bottom-right-radius: 0;
 }
 
-.button.g-middle {
+.button.g-item {
 	margin-left: 0;
 	margin-right: 0;
 	border-right: none;
@@ -67,8 +64,9 @@
 	-webkit-border-top-left-radius: 0;
 }
 
-/* Set margin before next group in the row */
-.button.g-next { margin-left: 15px; }
+/* Set margin before next or previous group in the row */
+.button.next-g { margin-right: 15px; }
+.button.previous-g { margin-left: 15px; }
 
 /* ---+---+---+--- DEFAULT SKIN ---+---+---+--- */
 
@@ -98,12 +96,6 @@
     background-clip: padding-box;
     -moz-background-clip: padding;
 	-webkit-background-clip: padding;
-
-	/* Button shadow 
-	box-shadow: 0 0 3px #999;
-    -moz-box-shadow: 0 0 3px #999;
-    -webkit-box-shadow: 0 0 3px #999;
-    */
 }
 
 .button:hover,
@@ -139,12 +131,17 @@
 
 /* Pill */
 .button.pill {
-    -webkit-border-radius: 50em; 
-    -moz-border-radius: 50em; 
-    border-radius: 50em; 
+	border-radius: 50em;
+	-moz-border-radius: 50em;
+    -webkit-border-radius: 50em;
 }
 
-/* Danger */
+/* ---+---+---+--- ACTIONS HIGHLIGHTING ---+---+---+--- */
+
+/* Primary action */
+.button.primary { font-weight: bold; }
+
+/* Danger action */
 .button.danger { color: #900; }
 
 .button.danger:hover,
@@ -169,6 +166,29 @@
     background-image: -moz-linear-gradient(#b33630, #dc5f59);
     background-image: -o-linear-gradient(#b33630, #dc5f59);
     background-image: linear-gradient(#b33630, #dc5f59);
+}
+
+/* Safe action */
+.button.safe:hover,
+.button.safe:focus,
+.button.safe:active {
+	color: #fff;   
+    border-color: #3aa147;
+    background-color: #45bf55;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc5f59), to(#b33630));
+    background-image: -moz-linear-gradient(#86d97b, #42ad4e);
+    background-image: -o-linear-gradient(#86d97b, #42ad4e);
+    background-image: linear-gradient(#86d97b, #42ad4e);
+}
+
+.button.safe:active,
+.button.safe.active {   
+    border-color: #3aa147;
+    background-color: #45bf55;
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#42ad4e), to(#86d97b));
+    background-image: -moz-linear-gradient(#42ad4e, #86d97b);
+    background-image: -o-linear-gradient(#42ad4e, #86d97b);
+    background-image: linear-gradient(#42ad4e, #86d97b);
 }
 
 /* ---+---+---+--- SIZES ---+---+---+--- */

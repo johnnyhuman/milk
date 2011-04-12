@@ -62,6 +62,19 @@ adding the `safe` class.
 
     <a href="#" class="button safe">Save the world</a>
 
+## Simple button groups ##
+
+Groups of buttons can be created by adding a classes 
+`g-first`, `g-item`, `g-last` and `next-g` or `previous-g` to the group 
+elements.
+
+    <a href="#" class="button g-first">+</a>
+    <a href="#" class="button g-last next-g">-</a>
+
+    <a href="#" class="button">Add comment</a>
+    <a href="#" class="button">Spam</a>
+    <a href="#" class="button">Trash</a>
+
 ## Button groups ##
 
 Groups of buttons can be created by wrapping them in an element given a class 

@@ -63,6 +63,6 @@
 	-webkit-border-top-left-radius: 0;
 }
 
-/* Set margin before next group in the row */
+/* Set margin before next or previous group in the row */
 .button.next-g { margin-right: 15px; }
 .button.previous-g { margin-left: 15px; }
