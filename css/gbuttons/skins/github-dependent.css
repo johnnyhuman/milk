@@ -1,0 +1,42 @@
+/**
+ * gButtons CSS3 Framework
+ *
+ * LICENSE
+ *
+ * This source file is in public domain.
+ * For more information see the LICENSE.txt file in this package.
+ *
+ * DESCRIPTION
+ *
+ * GitHub skin.
+ * This is not standalone skin! It depends on "Default" skin.
+ * Include only with (and after) a "Default" skin.
+ *
+ */
+
+@CHARSET "UTF-8";
+
+.button {
+	font-size: 11px;
+
+	/* Border */
+	border-radius: 0.2em;
+	-moz-border-radius: 0.2em;
+    -webkit-border-radius: 0.2em;
+
+	/* Button background */
+    background-color: #ececec;
+	background-image: linear-gradient(#f4f4f4, #ececec);
+	background-image: -moz-linear-gradient(#f4f4f4, #ececec);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
+    background-image: -o-linear-gradient(#f4f4f4, #ececec);
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#f4f4f4, endColorStr=#ececec);
+    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#f4f4f4, endColorStr=#ececec);
+}
+
+/* ---+---+---+--- ICONS ---+---+---+--- */
+
+.button.icon:before {
+    top: 1px;
+    background: url('../../../images/gbuttons/icons.png') 0 99px no-repeat;
+}
