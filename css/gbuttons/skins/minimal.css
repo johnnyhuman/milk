@@ -54,10 +54,10 @@
     border-color: #3072b3;
     border-bottom-color: #2a65a0;
     background-color: #3072b3;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
-    background-image: -moz-linear-gradient(#599bdc, #3072b3);
-    background-image: -o-linear-gradient(#599bdc, #3072b3);
     background-image: linear-gradient(#599bdc, #3072b3);
+    background-image: -moz-linear-gradient(#599bdc, #3072b3);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
+    background-image: -o-linear-gradient(#599bdc, #3072b3);
     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#599bdc, endColorStr=#3072b3);
     -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#599bdc, endColorStr=#3072b3);
 }
@@ -68,10 +68,10 @@
     border-color: #2a65a0;
     border-bottom-color: #3884CF;
     background-color: #3072b3;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
-    background-image: -moz-linear-gradient(#3072b3, #599bdc);
-    background-image: -o-linear-gradient(#3072b3, #599bdc);
     background-image: linear-gradient(#3072b3, #599bdc);
+    background-image: -moz-linear-gradient(#3072b3, #599bdc);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#3072b3), to(#599bdc));
+    background-image: -o-linear-gradient(#3072b3, #599bdc);
     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#3072b3, endColorStr=#599bdc);
     -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#3072b3, endColorStr=#599bdc);
 }
@@ -98,10 +98,10 @@
     border-color: #b53f3a;
     border-bottom-color: #a0302a;
     background-color: #dc5f59;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc5f59), to(#b33630));
-    background-image: -moz-linear-gradient(#dc5f59, #b33630);
-    background-image: -o-linear-gradient(#dc5f59, #b33630);
     background-image: linear-gradient(#dc5f59, #b33630);
+    background-image: -moz-linear-gradient(#dc5f59, #b33630);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc5f59), to(#b33630));
+    background-image: -o-linear-gradient(#dc5f59, #b33630);
 }
 
 .button.danger:active,
@@ -109,10 +109,10 @@
     border-color: #a0302a;
     border-bottom-color: #bf4843;
     background-color: #b33630;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b33630), to(#dc5f59));
-    background-image: -moz-linear-gradient(#b33630, #dc5f59);
-    background-image: -o-linear-gradient(#b33630, #dc5f59);
     background-image: linear-gradient(#b33630, #dc5f59);
+    background-image: -moz-linear-gradient(#b33630, #dc5f59);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#b33630), to(#dc5f59));
+    background-image: -o-linear-gradient(#b33630, #dc5f59);
 }
 
 /* Safe action */
@@ -123,10 +123,10 @@
     border-color: #3aa147;
     /*border-bottom-color: #a0302a;*/
     background-color: #45bf55;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc5f59), to(#b33630));
-    background-image: -moz-linear-gradient(#86d97b, #42ad4e);
-    background-image: -o-linear-gradient(#86d97b, #42ad4e);
     background-image: linear-gradient(#86d97b, #42ad4e);
+    background-image: -moz-linear-gradient(#86d97b, #42ad4e);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#dc5f59), to(#b33630));
+    background-image: -o-linear-gradient(#86d97b, #42ad4e);
 }
 
 .button.safe:active,
@@ -134,10 +134,10 @@
     border-color: #3aa147;
     /*border-bottom-color: #bf4843;*/
     background-color: #45bf55;
-    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#42ad4e), to(#86d97b));
-    background-image: -moz-linear-gradient(#42ad4e, #86d97b);
-    background-image: -o-linear-gradient(#42ad4e, #86d97b);
     background-image: linear-gradient(#42ad4e, #86d97b);
+    background-image: -moz-linear-gradient(#42ad4e, #86d97b);
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#42ad4e), to(#86d97b));
+    background-image: -o-linear-gradient(#42ad4e, #86d97b);
 }
 
 /* ---+---+---+--- SIZES ---+---+---+--- */
