@@ -39,7 +39,7 @@ A range of icons can be added (only for links and buttons) by adding a class of 
 
 ## Buttons size ##
 
-If you need a bigger buttons you can get them easily by addind the class `medium`, `big` or `huge`.
+If you need a bigger or smaller buttons you can get them easily by addind the class `medium`, `big` or `huge`.
 
     <a href="#" class="button medium">Publish</a>
     <a href="#" class="button big">Create Project</a>
@@ -101,6 +101,6 @@ Public domain: [http://unlicense.org](http://unlicense.org)
 ## Acknowledgements ##
 
 Inspiration path:
-[GitHub](http://github.com) &rarr; [David Walsh](http://davidwalsh.name)'s [GitHub-Style Buttons with CSS and JavaScript](http://davidwalsh.name/github-css) &rarr; [Michael Henriksen](http://michaelhenriksen.dk)'s [CSS3 Buttons](http://github.com/michenriksen/css3buttons) &rarr; [Nicolas Gallagher](nicolasgallagher.com)'s [CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons) &rarr; You are here.
+[GitHub](http://github.com) → [David Walsh](http://davidwalsh.name)'s [GitHub-Style Buttons with CSS and JavaScript](http://davidwalsh.name/github-css) → [Michael Henriksen](http://michaelhenriksen.dk)'s [CSS3 Buttons](http://github.com/michenriksen/css3buttons) &rarr; [Nicolas Gallagher](nicolasgallagher.com)'s [CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons) &rarr; You are here.
 
 Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/) by [some random dude](http://somerandomdude.com/) which are licensed as [CC Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/us/).
