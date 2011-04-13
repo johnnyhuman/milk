@@ -20,7 +20,7 @@
 .button {
 	font-size: 11px;
 
-	/* Border */
+	/* Button border */
 	border-radius: 0.2em;
 	-moz-border-radius: 0.2em;
     -webkit-border-radius: 0.2em;

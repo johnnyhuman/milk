@@ -16,6 +16,7 @@
 
 .button {
     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#efefef);
+    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#efefef);
 }
 
 .button:hover,
@@ -31,6 +32,7 @@
 
 /* ---+---+---+--- ACTIONS HIGHLIGHTING ---+---+---+--- */
 
+/* Danger action */
 .button.danger:hover,
 .button.danger:focus,
 .button.danger:active {
@@ -40,7 +42,6 @@
 .button.danger:active,
 .button.danger.active {   
     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#b33630, endColorStr=#dc5f59);
-    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#b33630, endColorStr=#dc5f59);
 }
 
 /* Safe action */
@@ -57,13 +58,6 @@
 
 /* ---+---+---+--- ICONS ---+---+---+--- */
 
-.button.icon:before {
-    content: "";
-    float: left;
-    position: relative;
-	top: 2px;
-    width: 12px;
-    height: 12px;
-    margin: 0 0.75em 0 -0.25em;
+.button.icon {
     background: url('../../../images/gbuttons/icons.png') 0 99px no-repeat;
 }
