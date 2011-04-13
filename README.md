@@ -157,5 +157,5 @@ Inspiration path:
 You are here.
 
 Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/) by 
-[some random dude](http://somerandomdude.com/) which are licensed as 
+[some random dude](http://somerandomdude.com/). Licensed as 
 [CC Attribution-Share Alike 3.0](http://creativecommons.org/licenses/by-sa/3.0/us/).
