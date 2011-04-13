@@ -17,11 +17,11 @@
 /* ---+---+---+--- MAIN CLASS ---+---+---+--- */
 
 .button {
-	white-space: nowrap;
-	overflow: visible;
     position: relative;
     display: inline-block;
 	outline: none;
+	overflow: visible;
+	white-space: nowrap;
 
     /* IE hacks */
     zoom: 1;
