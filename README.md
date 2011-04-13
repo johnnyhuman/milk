@@ -124,12 +124,14 @@ IE 6:
 - issues in Advanced Groups plugin
 
 IE 7:
-*    button icons and gradients is supported only trough additional fixer-skin (ie67.css)
-*    rounded corners and pill-buttons is not supported
-*    size issues with `<button>` and `<input>` elements
+
+* button icons and gradients is supported only trough additional fixer-skin (ie67.css)
+* rounded corners and pill-buttons is not supported
+* size issues with `<button>` and `<input>` elements
 
 Opera 10:
-*    buttons gradient is not supported
+
+* buttons gradient is not supported
 
 Note: Some CSS3 features are not supported in older versions of Opera and 
 versions of Internet Explorer prior to IE 8.
