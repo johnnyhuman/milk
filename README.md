@@ -86,7 +86,7 @@ Plugins can be used to control buttons behaviour, or to add new functions.
 
 ### Advanced Groups plugin ###
 
-##### Groups and Minor groups #####
+#### Groups and Minor groups ####
 
 Groups of buttons can be created by wrapping them in an element given a class 
 of `button-group`. A less important group of buttons can be marked out by adding 
@@ -100,7 +100,7 @@ a further class, `minor-group`.
         <a href="#" class="button">Trash</a>
     </div>
 
-##### Mixed groups #####
+#### Mixed groups ####
 
 Displaying a mixture of grouped and standalone buttons, as might be seen in a 
 toolbar, can be done by adding another wrapping element with the class `button-container`.
