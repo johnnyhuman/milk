@@ -131,20 +131,20 @@ Good support: Firefox 3+, Chrome 1+, Safari 4+, IE 8+, Opera 10+
 IE 6:
 
 - button icons and gradient is supported only trough additional fixer-skin (ie67.css)
-- rounded corners and pill-buttons is not supported
+- rounded corners and pill-like buttons is not supported
 - size issues with `<button>` and `<input>` elements
 - issues in Advanced Groups plugin
 
 IE 7:
 
 - button icons and gradient is supported only trough additional fixer-skin (ie67.css)
-- rounded corners and pill-buttons is not supported
+- rounded corners and pill-like buttons is not supported
 - size issues with `<button>` and `<input>` elements
 
 IE 8:
 
 - gradient is supported only trough additional fixer-skin (ie67.css)
-- rounded corners and pill-buttons is not supported
+- rounded corners and pill-like buttons is not supported
 
 Opera 10, 11.00:
 
