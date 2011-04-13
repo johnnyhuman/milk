@@ -3,8 +3,10 @@
 gButtons is a lightweight but powerful CSS3 *framework* for creating good-looking buttons.
 It supports skins and plugins (o_0) which allows you to manage buttons design and behaviour easily.  
 
-Originally it was a fork of Nicolas Gallagher's [CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons).
-But it grows up to a separate project. See the project evolution in the "Acknowledgements" section.
+Originally it was a fork of Nicolas Gallagher's
+[CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons), 
+but it grows up to a separate project. See the project evolution in the 
+"Acknowledgements" section.
 
 ## Demo ##
 
