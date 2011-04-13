@@ -23,12 +23,6 @@
 	padding: 0.5em 1em;
 	cursor: pointer;
 
-	/* Border */
-    border: 1px solid #d4d4d4; /* #cacaca */
-	border-radius: 0.3em;
-	-moz-border-radius: 0.3em;
-    -webkit-border-radius: 0.3em;
-
 	/* Button background */
     background-color: #f6f6f6;
 	background-image: linear-gradient(#ffffff, #efefef);
@@ -39,11 +33,22 @@
     -moz-background-clip: padding;
 	-webkit-background-clip: padding;
 
+	/* Border */
+    border: 1px solid #d4d4d4; /* #cacaca */
+	border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+	
 	/* Button shadow 
 	box-shadow: 0 0 3px #999;
     -moz-box-shadow: 0 0 3px #999;
     -webkit-box-shadow: 0 0 3px #999;
     */
+
+	/* Old Safari & Chrome hacks */
+    display: inline-block;
+	overflow: visible;
+	white-space: nowrap;
 }
 
 .button:hover,
@@ -166,9 +171,9 @@
 
 .button.icon:before {
     content: "";
-    float: left;
     position: relative;
 	top: 2px;
+	float: left;
     width: 12px;
     height: 12px;
     margin: 0 0.75em 0 -0.25em;
