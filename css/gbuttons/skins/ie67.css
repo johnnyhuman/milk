@@ -1,0 +1,69 @@
+/**
+ * gButtons CSS3 Framework
+ *
+ * LICENSE
+ *
+ * This source file is in public domain.
+ * For more information see the LICENSE.txt file in this package.
+ *
+ * DESCRIPTION
+ *
+ * IE67 skin.
+ * Features: support for old IE browsers (6, 7).
+ */
+
+/* ---+---+---+--- MAIN ---+---+---+--- */
+
+.button {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#efefef);
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#599bdc, endColorStr=#3072b3);
+}
+
+.button:active,
+.button.active {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#3072b3, endColorStr=#599bdc);
+}
+
+/* ---+---+---+--- ACTIONS HIGHLIGHTING ---+---+---+--- */
+
+.button.danger:hover,
+.button.danger:focus,
+.button.danger:active {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#dc5f59, endColorStr=#b33630);
+}
+
+.button.danger:active,
+.button.danger.active {   
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#b33630, endColorStr=#dc5f59);
+    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#b33630, endColorStr=#dc5f59);
+}
+
+/* Safe action */
+.button.safe:hover,
+.button.safe:focus,
+.button.safe:active {
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#86d97b, endColorStr=#42ad4e);
+}
+
+.button.safe:active,
+.button.safe.active {   
+    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#42ad4e, endColorStr=#86d97b);
+}
+
+/* ---+---+---+--- ICONS ---+---+---+--- */
+
+.button.icon:before {
+    content: "";
+    float: left;
+    position: relative;
+	top: 2px;
+    width: 12px;
+    height: 12px;
+    margin: 0 0.75em 0 -0.25em;
+    background: url('../../../images/gbuttons/icons.png') 0 99px no-repeat;
+}
