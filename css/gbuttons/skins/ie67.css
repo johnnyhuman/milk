@@ -8,15 +8,14 @@
  *
  * DESCRIPTION
  *
- * IE67 skin.
- * Features: support for old IE browsers (6, 7).
+ * IE 6, 7, 8 fixer-skin.
+ * Features: better support for old IE browsers (6, 7, 8).
  */
 
 /* ---+---+---+--- MAIN ---+---+---+--- */
 
 .button {
     filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#efefef);
-    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#ffffff, endColorStr=#efefef);
 }
 
 .button:hover,
@@ -57,4 +56,3 @@
 }
 
 /* ---+---+---+--- ICONS ---+---+---+--- */
-

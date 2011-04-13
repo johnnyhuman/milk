@@ -44,11 +44,11 @@ of `icon` and any one of the provided icon classes.
 ## Buttons size ##
 
 If you need a bigger or smaller buttons you can get them easily by addind the 
-class `medium`, `big` or `huge`.
+class `tiny`, `small`, `little`, `big`, `huge`, `great` or `giant`.
 
-    <a href="#" class="button medium">Publish</a>
-    <a href="#" class="button big">Create Project</a>
-    <a href="#" class="button huge">Sign Up</a>
+    <a href="#" class="button tiny">Edit comment</a>
+    <a href="#" class="button huge">Create Project</a>
+    <a href="#" class="button giant">Sign Up</a>
 
 ## Buttons with dangerous and safe actions ##
 
@@ -72,9 +72,9 @@ button groups in one row.
     <a href="#" class="button safe g-first">+</a>
     <a href="#" class="button danger g-last next-g">-</a>
 
-    <a href="#" class="button icon pin g-first">Publish</a>
-    <a href="#" class="button icon edit g-item">Edit</a>
-    <a href="#" class="button icon remove g-last">Delete</a>
+    <a href="#" class="button g-first">Publish</a>
+    <a href="#" class="button g-item">Edit</a>
+    <a href="#" class="button g-last">Delete</a>
 
 ## Skins ##
 
@@ -111,7 +111,7 @@ toolbar, can be done by adding another wrapping element with the class `button-c
         <div class="button-group">
             <a href="#" class="button primary">Unwatch</a>
             <a href="#" class="button">Fork</a>
-            <a href="#" class="button danger">Pull Request</a>
+            <a href="#" class="button">Pull Request</a>
         </div>
 
         <div class="button-group minor-group">

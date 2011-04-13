@@ -38,14 +38,14 @@
 	border-radius: 0.3em;
 	-moz-border-radius: 0.3em;
     -webkit-border-radius: 0.3em;
-	
+
 	/* Button shadow 
 	box-shadow: 0 0 3px #999;
     -moz-box-shadow: 0 0 3px #999;
     -webkit-box-shadow: 0 0 3px #999;
     */
 
-	/* Old Safari & Chrome hacks */
+	/* Hacks for old Safari & Chrome versions */
     display: inline-block;
 	overflow: visible;
 	white-space: nowrap;
@@ -64,7 +64,6 @@
     background-image: -moz-linear-gradient(#599bdc, #3072b3);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#599bdc), to(#3072b3));
     background-image: -o-linear-gradient(#599bdc, #3072b3);
-    
 }
 
 .button:active,
