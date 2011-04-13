@@ -112,21 +112,24 @@ toolbar, can be done by adding another wrapping element with the class `button-c
 
 ## Browser compatibility ##
 
-Full support: Firefox 3.5+, Chrome 7+, Safari 4+, IE 8+, Opera 11.10+
+Full support: Firefox 3.5+, Chrome 3+, Safari 4+, IE 8+, Opera 11+
 
 *Issues in older versions of browsers.*
 
 IE 6:
-*    button icons and gradients is supported only trough additional fixer-skin (ie67.css)
-*    rounded corners and pill-buttons is not supported
-*    size issues with `<button>` and `<input>` elements
-*    issues in Advanced Groups plugin
+
+- button icons and gradients is supported only trough additional fixer-skin (ie67.css)
+- rounded corners and pill-buttons is not supported
+- size issues with `<button>` and `<input>` elements
+- issues in Advanced Groups plugin
 
 IE 7:
 *    button icons and gradients is supported only trough additional fixer-skin (ie67.css)
 *    rounded corners and pill-buttons is not supported
 *    size issues with `<button>` and `<input>` elements
 
+Opera 10:
+*    buttons gradient is not supported
 
 Note: Some CSS3 features are not supported in older versions of Opera and 
 versions of Internet Explorer prior to IE 8.
