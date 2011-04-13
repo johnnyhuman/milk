@@ -9,11 +9,13 @@
  * DESCRIPTION
  *
  * GitHub skin.
- * This is not standalone skin! It depends on the "Default" skin.
- * Include only with (and after) the "Default" skin.
+ * This is not a standalone skin! It depends on the "Default" skin,
+ * and uses @import to include the default skin stylesheet.
  */
 
-@CHARSET "UTF-8";
+@import "default.css";
+
+/* ---+---+---+--- MAIN ---+---+---+--- */
 
 .button {
 	font-size: 11px;
@@ -29,8 +31,6 @@
 	background-image: -moz-linear-gradient(#f4f4f4, #ececec);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4f4), to(#ececec));
     background-image: -o-linear-gradient(#f4f4f4, #ececec);
-    filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#f4f4f4, endColorStr=#ececec);
-    -ms-filter: progid:DXImageTransform.Microsoft.Gradient(startColorStr=#f4f4f4, endColorStr=#ececec);
 }
 
 /* ---+---+---+--- ICONS ---+---+---+--- */
