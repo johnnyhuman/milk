@@ -116,7 +116,7 @@ Full support: Firefox 3.5+, Chrome 3+, Safari 4+, IE 9+, Opera 11+
 
 Good support: Firefox 3+, Chrome 1+, Safari 4+, IE 8+, Opera 10+
 
-*Issues in older versions of browsers.*
+**Issues in older versions of browsers.**
 
 IE 6:
 
