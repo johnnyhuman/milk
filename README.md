@@ -112,7 +112,14 @@ toolbar, can be done by adding another wrapping element with the class `button-c
 
 ## Browser compatibility ##
 
-Firefox 3.5+, Google Chrome, Safari 4+, IE 8+, Opera 10+.
+Full support: Firefox 3.5+, Chrome 7+, Safari 4+, IE 8+, Opera 11.10+
+
+* * *
+
+Issues in other browser versions.
+
+IE 6: 
+
 
 Note: Some CSS3 features are not supported in older versions of Opera and 
 versions of Internet Explorer prior to IE 8.
