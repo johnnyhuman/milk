@@ -76,7 +76,15 @@ button groups in one row.
     <a href="#" class="button icon edit g-item">Edit</a>
     <a href="#" class="button icon remove g-last">Delete</a>
 
-## Button groups ##
+## Skins ##
+
+info
+
+## Plugins ##
+
+Plugins can be used to control buttons behaviour, or to add new functions.
+
+### Advanced Groups plugin ###
 
 Groups of buttons can be created by wrapping them in an element given a class 
 of `button-group`. A less important group of buttons can be marked out by adding 
@@ -90,7 +98,7 @@ a further class, `minor-group`.
         <a href="#" class="button">Trash</a>
     </div>
 
-## Mixed groups ##
+#### Mixed groups ####
 
 Displaying a mixture of grouped and standalone buttons, as might be seen in a 
 toolbar, can be done by adding another wrapping element with the class `button-container`.
