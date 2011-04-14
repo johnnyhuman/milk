@@ -24,12 +24,6 @@
 	padding: 0.5em 1em;
 	cursor: pointer;
 
-	/* Border */
-    border: 1px solid #d4d4d4; /* #cacaca */
-	border-radius: 0.3em;
-	-moz-border-radius: 0.3em;
-    -webkit-border-radius: 0.3em;
-
 	/* Button background */
     background-color: #f6f6f6;
 	background-image: linear-gradient(#ffffff, #efefef);
@@ -39,6 +33,17 @@
     background-clip: padding-box;
     -moz-background-clip: padding;
 	-webkit-background-clip: padding;
+
+	/* Border */
+    border: 1px solid #d4d4d4; /* #cacaca */
+	border-radius: 0.3em;
+	-moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+
+	/* Hacks for old Safari & Chrome versions */
+    display: inline-block;
+	overflow: visible;
+	white-space: nowrap;
 }
 
 .button:hover,
@@ -113,7 +118,7 @@
 .button.safe:active {
 	color: #fff;   
     border-color: #3aa147;
-    /*border-bottom-color: #a0302a;*/
+    border-bottom-color: #a0302a;
     background-color: #45bf55;
     background-image: linear-gradient(#86d97b, #42ad4e);
     background-image: -moz-linear-gradient(#86d97b, #42ad4e);
@@ -123,8 +128,8 @@
 
 .button.safe:active,
 .button.safe.active {   
-    border-color: #3aa147;
-    /*border-bottom-color: #bf4843;*/
+    border-color: #338F3F;
+    border-bottom-color: #338F3F;
     background-color: #45bf55;
     background-image: linear-gradient(#42ad4e, #86d97b);
     background-image: -moz-linear-gradient(#42ad4e, #86d97b);

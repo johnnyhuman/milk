@@ -123,7 +123,7 @@
 .button.safe:active {
 	color: #fff;   
     border-color: #3aa147;
-    /*border-bottom-color: #a0302a;*/
+    border-bottom-color: #a0302a;
     background-color: #45bf55;
     background-image: linear-gradient(#86d97b, #42ad4e);
     background-image: -moz-linear-gradient(#86d97b, #42ad4e);
@@ -133,8 +133,8 @@
 
 .button.safe:active,
 .button.safe.active {   
-    border-color: #3aa147;
-    /*border-bottom-color: #bf4843;*/
+    border-color: #338F3F;
+    border-bottom-color: #338F3F;
     background-color: #45bf55;
     background-image: linear-gradient(#42ad4e, #86d97b);
     background-image: -moz-linear-gradient(#42ad4e, #86d97b);
@@ -158,14 +158,6 @@
 	padding-bottom: 0.4em;
 }
 
-.button.tiny.icon:before { top: 0; }
-.button.small.icon:before { top: 1px; }
-.button.little.icon:before { top: 2px; }
-.button.big.icon:before { top: 3px; }
-.button.huge.icon:before { top: 4px; }
-.button.great.icon:before { top: 6px; }
-.button.giant.icon:before { top: 7px; }
-
 /* ---+---+---+--- ICONS ---+---+---+--- */
 
 .button.icon:before {
@@ -178,6 +170,15 @@
     margin: 0 0.75em 0 -0.25em;
     background: url('../../../images/gbuttons/icons.png') 0 99px no-repeat;
 }
+
+/* Buttons sizes icons fix */
+.button.tiny.icon:before { top: 0; }
+.button.small.icon:before { top: 1px; }
+.button.little.icon:before { top: 2px; }
+.button.big.icon:before { top: 3px; }
+.button.huge.icon:before { top: 4px; }
+.button.great.icon:before { top: 6px; }
+.button.giant.icon:before { top: 7px; }
 
 .button.arrowup.icon:before { background-position: 0 0; }
 .button.arrowup.icon:hover:before,
