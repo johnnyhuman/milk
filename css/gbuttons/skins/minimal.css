@@ -30,7 +30,8 @@
 	background-image: -moz-linear-gradient(#ffffff, #efefef);
     background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#efefef));
     background-image: -o-linear-gradient(#ffffff, #efefef);
-    background-clip: padding-box;
+    /* background-clip: padding-box; */
+    -o-background-clip: padding-box;
     -moz-background-clip: padding;
 	-webkit-background-clip: padding;
 
