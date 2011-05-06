@@ -12,7 +12,8 @@ Framework demo: [Milk CSS3 Framework](http://lab.aam.me/gbuttons#demo)
  1. Copy `css/milk` into your stylesheets folder and link to 
  `milk/packages/standart.css` in the head of your HTML document.
  2. Copy `images/milk` into your images folder.
- 3. Add `button` class to the `<button>`, `<input>` or `<a>` HTML element.
+ 3. Add `button` class to the `<button>`, `<input>` or `<a>` HTML element to 
+ create nice buttons.
 
 ## Buttons ##
 
