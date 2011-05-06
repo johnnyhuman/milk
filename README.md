@@ -1,22 +1,17 @@
-# gButtons - CSS3 buttons framework #
+# Milk - CSS3 UI framework #
 
-gButtons is a lightweight but powerful CSS3 *framework* for creating good-looking buttons.
-It supports skins and plugins (o_0) which allows you to manage buttons design and behaviour easily.  
-
-Originally it was a fork of Nicolas Gallagher's
-[CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons), 
-but it grows up to a separate project. See the project evolution in the 
-"Acknowledgements" section.
+Milk is a lightweight but powerful CSS3 UI framework.
+It supports skins and plugins.  
 
 ## Demo ##
 
-Framework demo: [gButtons CSS3 Framework](http://lab.aam.me/gbuttons#demo)
+Framework demo: [Milk CSS3 Framework](http://lab.aam.me/gbuttons#demo)
 
 ## Installation ##
 
- 1. Copy `css/gbuttons` into your stylesheets folder and link to 
- `gbuttons/packages/standart.css` in the head of your HTML document.
- 2. Copy `images/gbuttons` into your images folder.
+ 1. Copy `css/milk` into your stylesheets folder and link to 
+ `milk/packages/standart.css` in the head of your HTML document.
+ 2. Copy `images/milk` into your images folder.
  3. Add `button` class to the `<button>`, `<input>` or `<a>` HTML element.
 
 ## Buttons ##
@@ -161,11 +156,15 @@ Public domain: [http://unlicense.org](http://unlicense.org)
 
 ## Acknowledgements ##
 
+Originally it was a fork of Nicolas Gallagher's
+[CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons), 
+but it grows up to a separate project.
+
 Project evolution:
 [GitHub](http://github.com) → [David Walsh](http://davidwalsh.name)'s [GitHub-Style Buttons with CSS and JavaScript](http://davidwalsh.name/github-css) → 
 [Michael Henriksen](http://michaelhenriksen.dk)'s [CSS3 Buttons](http://github.com/michenriksen/css3buttons) → 
 [Nicolas Gallagher](nicolasgallagher.com)'s [CSS3 GitHub Buttons](https://github.com/necolas/css3-github-buttons) → 
-You are here.
+[gButtons](https://github.com/johnnyhuman/gbuttons) → Milk CSS3 UI Framework (You are here).
 
 Icons from [Iconic pack](http://somerandomdude.com/projects/iconic/) by 
 [some random dude](http://somerandomdude.com/). Licensed as 
