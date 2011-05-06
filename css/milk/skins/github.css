@@ -34,5 +34,5 @@
 
 .button.icon:before {
     top: 1px;
-    background: url('../../../images/gbuttons/icons.png') 0 99px no-repeat;
+    background: url('../../../images/icons/iconic/sprite.png') 0 99px no-repeat;
 }
