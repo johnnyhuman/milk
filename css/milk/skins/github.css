@@ -1,16 +1,13 @@
 /**
- * gButtons CSS3 Framework
- *
- * LICENSE
- *
- * This source file is in public domain.
- * For more information see the LICENSE.txt file in this package.
- *
- * DESCRIPTION
+ * MILK CSS3 UI framework
  *
  * GitHub skin.
  * This is not a standalone skin! It depends on the "Default" skin,
  * and uses @import to include the default skin stylesheet.
+ *
+ * @author Johnny Human <https://github.com/johnnyhuman>
+ * @license CC0. This source file is in public domain.
+ * For more information see the LICENSE.txt file in this package.
  */
 
 @import "default.css";
